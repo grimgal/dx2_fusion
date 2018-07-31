@@ -6,7 +6,7 @@ Github: https://github.com/oceanxdds/dx2_fusion
 Publish: https://oceanxdds.github.io/dx2_fusion/
 //////////////////////////////////////////////////*/
 
-// Localized to English by Dissi
+// Modified by Dissi
 
 const ddd_stable = [
     {
@@ -959,9 +959,9 @@ const skill_stable = [
             //萬
             {"name":"Life Drain","name_tw":"Life Drain","desc":"Inflicts Magic Almighty damage with 120 power on a Single Enemy, while healing caster 25% of damage dealt.","mp":5,"point":3,"element":"Almighty"},
             {"name":"Deathtouch","name_tw":"死亡之觸","desc":"Inflicts Magic Almighty damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt.","mp":6,"point":6,"element":"Almighty"},
-            {"name":"Spirit Drain","name_tw":"Spirit Drain","desc":"Inflicts Magic Almighty damage with 100 power on a Single Enemy and drains 1MP.","mp":6,"point":3,"element":"Almighty"},
-            {"name":"Energy Drain","name_tw":"能量抽取","desc":"Inflicts Magic Almighty damage with 100 power on a Single Enemy, while healing caster 25% of damage dealt and drains 1MP.","mp":7,"point":6,"element":"Almighty"},
-            {"name":"Soul Drain","name_tw":"靈魂抽取","desc":"Inflicts Magic Almighty damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt and drains 1MP.","mp":8,"point":7,"element":"Almighty"},
+            {"name":"Spirit Drain","name_tw":"Spirit Drain","desc":"Inflicts Magic Almighty damage with 100 power on a Single Enemy and drains 1 MP.","mp":6,"point":3,"element":"Almighty"},
+            {"name":"Energy Drain","name_tw":"能量抽取","desc":"Inflicts Magic Almighty damage with 100 power on a Single Enemy, while healing caster 25% of damage dealt and drains 1 MP.","mp":7,"point":6,"element":"Almighty"},
+            {"name":"Soul Drain","name_tw":"靈魂抽取","desc":"Inflicts Magic Almighty damage with 140 power on a Single Enemy, while healing caster 40% of damage dealt and drains 1 MP.","mp":8,"point":7,"element":"Almighty"},
             {"name":"Megido","name_tw":"米吉朵","desc":"Inflicts Magic Almighty damage with 80 power on All Enemies.","mp":6,"point":5,"element":"Almighty"},
             {"name":"Megidola","name_tw":"米吉朵拉","desc":"Inflicts Magic Almighty damage with 100 power on All Enemies.","mp":7,"point":8,"element":"Almighty"},
             {"name":"Megidolaon","name_tw":"米吉朵拉翁","desc":"Inflicts Magic Almighty damage with 120 power on All Enemies.","mp":8,"point":"12","element":"Almighty"},
@@ -1117,15 +1117,15 @@ const skill_stable = [
         skills:[
             //強化
             {"name":"Phys Boost","name_tw":"物理強化","desc":"+15% to Phys damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Phys Amp","name_tw":"高級物理強化","desc":"物理属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"Passive"},
+            {"name":"Phys Amp","name_tw":"高級物理強化","desc":"+25% to Phys damage.","mp":null,"point":"21","element":"Passive"},
             {"name":"Fire Boost","name_tw":"火炎強化","desc":"+15% to Fire damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Fire Amp","name_tw":"高級火炎強化","desc":"火炎属性で与えるダメージが25％増加する。","mp":null,"point":21,"element":"Passive"},
+            {"name":"Fire Amp","name_tw":"高級火炎強化","desc":"+25% to Fire damage.","mp":null,"point":21,"element":"Passive"},
             {"name":"Ice Boost","name_tw":"冰凍強化","desc":"+15% to Ice damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Ice Amp","name_tw":"高級冰凍強化","desc":"氷結属性で与えるダメージが25％増加する。","mp":null,"point":21,"element":"Passive"},
+            {"name":"Ice Amp","name_tw":"高級冰凍強化","desc":"+25% to Ice damage.","mp":null,"point":21,"element":"Passive"},
             {"name":"Elec Boost","name_tw":"電擊強化","desc":"+15% to Elec damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Elec Amp","name_tw":"高級電擊強化","desc":"電撃属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"Passive"},
+            {"name":"Elec Amp","name_tw":"高級電擊強化","desc":"+25% to Elec damage.","mp":null,"point":"21","element":"Passive"},
             {"name":"Force Boost","name_tw":"衝擊強化","desc":"+15% to Force damage.","mp":null,"point":6,"element":"Passive"},
-            {"name":"Force Amp","name_tw":"高級衝擊強化","desc":"衝撃属性で与えるダメージが25％増加する。","mp":null,"point":"21","element":"Passive"},
+            {"name":"Force Amp","name_tw":"高級衝擊強化","desc":"+15% to Force damage.","mp":null,"point":"21","element":"Passive"},
             {"name":"Light Boost","name_tw":"破魔強化","desc":"+15% to Light damage.","mp":null,"point":6,"element":"Passive"},
             {"name":"Light Amp","name_tw":"高級破魔強化","desc":"+25% to Light damage.","mp":null,"point":21,"element":"Passive"},
             {"name":"Dark Boost","name_tw":"咒殺強化","desc":"+15% to Dark damage.","mp":null,"point":6,"element":"Passive"},
@@ -1134,54 +1134,54 @@ const skill_stable = [
             {"name":"Heal Amp","name_tw":"高級回復強化","desc":"+25% to Healing skill effectiveness.","mp":null,"point":"21","element":"Passive"},
             //貫通
             {"name":"Phys Pierce","name_tw":"Phys Pierce","desc":"Phys attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
-            {"name":"Superior Power","name_tw":"帝王權威","desc":"物理命中率が20%増加し、物理貫通を得る。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Superior Power","name_tw":"帝王權威","desc":"+20% to Phys hit rate and adds Phys Pierce.","mp":null,"point":null,"element":"Passive"},
             {"name":"Fire Pierce","name_tw":"Fire Pierce","desc":"Fire attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
             {"name":"Elec Pierce","name_tw":"電擊貫通","desc":"Elec attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
             {"name":"Force Pierce","name_tw":"衝擊貫通","desc":"Force attacks bypass resistances","mp":null,"point":"32","element":"Passive"},
             //耐性
-            {"name":"Resist Phys","name_tw":"Resist Phys","desc":"Resist Phys damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Resist Fire","name_tw":"Resist Fire","desc":"Resist Fire damage","mp":null,"point":8,"element":"Passive"},
-            {"name":"Resist Ice","name_tw":"冰凍耐性","desc":"Resist Ice damage","mp":null,"point":8,"element":"Passive"},
-            {"name":"Resist Elec","name_tw":"電擊耐性","desc":"Resist Elec damage","mp":null,"point":8,"element":"Passive"},
-            {"name":"Resist Force","name_tw":"衝擊耐性","desc":"Resist Force damage","mp":null,"point":8,"element":"Passive"},
-            {"name":"Resist Light","name_tw":"Resist Light","desc":"Resist Light damage","mp":null,"point":8,"element":"Passive"},
-            {"name":"Resist Dark","name_tw":"咒殺耐性","desc":"Resist Dark damage","mp":null,"point":8,"element":"Passive"},
+            {"name":"Resist Phys","name_tw":"Resist Phys","desc":"Adds Phys Resist.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Resist Fire","name_tw":"Resist Fire","desc":"Adds Fire Resist.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Resist Ice","name_tw":"冰凍耐性","desc":"Adds Ice Resist.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Resist Elec","name_tw":"電擊耐性","desc":"Adds Elec Resist.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Resist Force","name_tw":"衝擊耐性","desc":"Adds Force Resist.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Resist Light","name_tw":"Resist Light","desc":"Adds Light Resist.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Resist Dark","name_tw":"咒殺耐性","desc":"Adds Dark Resist.","mp":null,"point":8,"element":"Passive"},
 
-            {"name":"Null Phys","name_tw":"物理無效","desc":"Nullify Phys damage","mp":null,"point":"18","element":"Passive"},
-            {"name":"Null Fire","name_tw":"火炎無效","desc":"Nullify Fire damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Ice","name_tw":"冰凍無效","desc":"Nullify Ice damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Elec","name_tw":"電擊無效","desc":"Nullify Elec damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Force","name_tw":"衝擊無效","desc":"Nullify Force damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Light","name_tw":"破魔無效","desc":"Nullify Light damage","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Dark","name_tw":"咒殺無效","desc":"Nullify Dark damage","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Phys","name_tw":"物理無效","desc":"Adds Phys Null.","mp":null,"point":"18","element":"Passive"},
+            {"name":"Null Fire","name_tw":"火炎無效","desc":"Adds Fire Null.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Ice","name_tw":"冰凍無效","desc":"Adds Ice Null.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Elec","name_tw":"電擊無效","desc":"Adds Elec Null.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Force","name_tw":"衝擊無效","desc":"Adds Force Null.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Light","name_tw":"破魔無效","desc":"Adds Light Null.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Dark","name_tw":"咒殺無效","desc":"Adds Dark Null.","mp":null,"point":"12","element":"Passive"},
 
-            {"name":"Repel Phys","name_tw":"物理反射","desc":"Repel Phys damage","mp":null,"point":null,"element":"Passive"},
-            {"name":"Repel Fire","name_tw":"Repel Fire","desc":"Repel Fire damage","mp":null,"point":"16","element":"Passive"},
-            {"name":"Repel Ice","name_tw":"冰凍反射","desc":"Repel Ice damage","mp":null,"point":"16","element":"Passive"},
-            {"name":"Repel Elec","name_tw":"電擊反射","desc":"Repel Elec damage","mp":null,"point":"16","element":"Passive"},
-            {"name":"Repel Force","name_tw":"衝擊反射","desc":"Repel Force damage","mp":null,"point":"16","element":"Passive"},
-            {"name":"Repel Light","name_tw":"Repel Light","desc":"Repel Light damage","mp":null,"point":"16","element":"Passive"},
-            {"name":"Repel Dark","name_tw":"咒殺反射","desc":"Repel Dark damage","mp":null,"point":"16","element":"Passive"},
+            {"name":"Repel Phys","name_tw":"物理反射","desc":"Adds Phys Repel.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Repel Fire","name_tw":"Repel Fire","desc":"Adds Fire Repel.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Repel Ice","name_tw":"冰凍反射","desc":"Adds Ice Repel.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Repel Elec","name_tw":"電擊反射","desc":"Adds Elec Repel.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Repel Force","name_tw":"衝擊反射","desc":"Adds Force Repel.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Repel Light","name_tw":"Repel Light","desc":"Adds Light Repel.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Repel Dark","name_tw":"咒殺反射","desc":"Adds Dark Repel.","mp":null,"point":"16","element":"Passive"},
 
-            {"name":"Drain Phys","name_tw":"物理吸收","desc":"Drain Phys damage","mp":null,"point":"30","element":"Passive"},
-            {"name":"Drain Fire","name_tw":"火炎吸收","desc":"Drain Fire damage","mp":null,"point":"20","element":"Passive"},
-            {"name":"Drain Ice","name_tw":"冰凍吸收","desc":"Drain Ice damage","mp":null,"point":"20","element":"Passive"},
-            {"name":"Drain Elec","name_tw":"電擊吸收","desc":"Drain Elec damage","mp":null,"point":"20","element":"Passive"},
-            {"name":"Drain Light","name_tw":"破魔吸收","desc":"Drain Light damage","mp":null,"point":"20","element":"Passive"},
+            {"name":"Drain Phys","name_tw":"物理吸收","desc":"Adds Phys Drain.","mp":null,"point":"30","element":"Passive"},
+            {"name":"Drain Fire","name_tw":"火炎吸收","desc":"Adds Fire Drain.","mp":null,"point":"20","element":"Passive"},
+            {"name":"Drain Ice","name_tw":"冰凍吸收","desc":"Adds Ice Drain.","mp":null,"point":"20","element":"Passive"},
+            {"name":"Drain Elec","name_tw":"電擊吸收","desc":"Adds Elec Drain.","mp":null,"point":"20","element":"Passive"},
+            {"name":"Drain Light","name_tw":"破魔吸收","desc":"Adds Light Drain.","mp":null,"point":"20","element":"Passive"},
 
-            {"name":"Resist Poison","name_tw":"Resist Poison","desc":"Poison resistance +50%","mp":null,"point":4,"element":"Passive"},
-            {"name":"Resist Bind","name_tw":"束縛耐性","desc":"Bind resistance +50%","mp":null,"point":4,"element":"Passive"},
-            {"name":"Resist Charm","name_tw":"魅惑耐性","desc":"Charm resistance +50%","mp":null,"point":4,"element":"Passive"},
-            {"name":"Resist Mute","name_tw":"Resist Mute","desc":"Mute resistance +50%","mp":null,"point":4,"element":"Passive"},
-            {"name":"Resist Curse","name_tw":"詛咒耐性","desc":"Curse resistance +50%","mp":null,"point":4,"element":"Passive"},
-            {"name":"Resist Weak","name_tw":"虛弱耐性","desc":"Weak resistance +50%","mp":null,"point":4,"element":"Passive"},
+            {"name":"Resist Poison","name_tw":"Resist Poison","desc":"Chance of being Poisoned reduced by 50%.","mp":null,"point":4,"element":"Passive"},
+            {"name":"Resist Bind","name_tw":"束縛耐性","desc":"Chance of being Bound reduced by 50%.","mp":null,"point":4,"element":"Passive"},
+            {"name":"Resist Charm","name_tw":"魅惑耐性","desc":"Chance of being Charmed reduced by 50%.","mp":null,"point":4,"element":"Passive"},
+            {"name":"Resist Mute","name_tw":"Resist Mute","desc":"Chance of being Muted reduced by 50%.","mp":null,"point":4,"element":"Passive"},
+            {"name":"Resist Curse","name_tw":"詛咒耐性","desc":"Chance of being Cursed reduced by 50%.","mp":null,"point":4,"element":"Passive"},
+            {"name":"Resist Weak","name_tw":"虛弱耐性","desc":"Chance of being Weakened reduced by 50%.","mp":null,"point":4,"element":"Passive"},
 
-            {"name":"Null Poison","name_tw":"毒無效","desc":"Immune to Poison","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Bind","name_tw":"束縛無效","desc":"Immune to Bind","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Charm","name_tw":"魅惑無效","desc":"Immune to Charm","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Mute","name_tw":"魔封無效","desc":"Immune to Mute","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Curse","name_tw":"詛咒無效","desc":"Immune to Curse","mp":null,"point":"12","element":"Passive"},
-            {"name":"Null Weak","name_tw":"虛弱無效","desc":"Immune to Weak","mp":null,"point":"12","element":"Passive"}
+            {"name":"Null Poison","name_tw":"毒無效","desc":"Adds Null Poison.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Bind","name_tw":"束縛無效","desc":"Adds Null Bind.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Charm","name_tw":"魅惑無效","desc":"Adds Null Charm.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Mute","name_tw":"魔封無效","desc":"Adds Null Mute.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Curse","name_tw":"詛咒無效","desc":"Adds Null Curse.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Null Weak","name_tw":"虛弱無效","desc":"Adds Null Weak.","mp":null,"point":"12","element":"Passive"}
         ]
     },
     {
@@ -1190,53 +1190,53 @@ const skill_stable = [
         name_en:"",
         skills:[
             //速度
-            {"name":"Speedster","name_tw":"急速之星","desc":"悪魔のバトルスピードへの影響が50％増加する。","mp":null,"point":"10","element":"Passive"},
+            {"name":"Speedster","name_tw":"急速之星","desc":"+50% to Battle Speed of this demon.","mp":null,"point":"10","element":"Passive"},
             //命中
-            {"name":"Good Aim","name_tw":"百發百中","desc":"物理命中率が10％増加する。","mp":null,"point":4,"element":"Passive"},
-            {"name":"Great Aim","name_tw":"千發千中","desc":"物理命中率が20％増加する。","mp":null,"point":"16","element":"Passive"},
-            {"name":"Dragon Sense","name_tw":"","desc":"物理命中率が15％増加し、物理回避率が15％増加する。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Good Aim","name_tw":"百發百中","desc":"+10% to Phys hit rate.","mp":null,"point":4,"element":"Passive"},
+            {"name":"Great Aim","name_tw":"千發千中","desc":"+20% to Phys hit rate.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Dragon Sense","name_tw":"","desc":"+15% to Phys hit rate and +15% Phys evasion rate.","mp":null,"point":null,"element":"Passive"},
             //迴避
-            {"name":"Dodge","name_tw":"識破","desc":"物理回避率が10％増加する。","mp":null,"point":4,"element":"Passive"},
-            {"name":"Evade","name_tw":"分寸識破","desc":"物理回避率が20％増加する。","mp":null,"point":"16","element":"Passive"},
-            {"name":"Vahana","name_tw":"神馭騎獸","desc":"物理回避率15%増加。状態異常になる確率を30%減少。","mp":null,"point":null,"element":"Passive"},
-            {"name":"Stealth","name_tw":"隱密","desc":"物理回避率が20％増加する。さらに、この悪魔が死亡するとき、一度だけHP1で踏みとどまる。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Dodge","name_tw":"識破","desc":"+10% Phys evasion rate.","mp":null,"point":4,"element":"Passive"},
+            {"name":"Evade","name_tw":"分寸識破","desc":"+20% Phys evasion rate.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Vahana","name_tw":"神馭騎獸","desc":"+15% to Phys evasion rate. -30% chance of receiving status ailments.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Stealth","name_tw":"隱密","desc":"HP will stop at 1 upon receiving the first killing blow, and increases Phys evasion rate by +20%.","mp":null,"point":null,"element":"Passive"},
             //異命
-            {"name":"Madness","name_tw":"凌亂綻放","desc":"状態異常にする確率が10％増加する。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Insanity","name_tw":"狂亂綻放","desc":"状態異常にする確率が20％増加する。","mp":null,"point":"24","element":"Passive"},
+            {"name":"Madness","name_tw":"凌亂綻放","desc":"+10% chance to inflict status ailments.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Insanity","name_tw":"狂亂綻放","desc":"+20% chance to inflict status ailments.","mp":null,"point":"24","element":"Passive"},
             //狀防
-            {"name":"Hellish Mask","name_tw":"地域口罩","desc":"状態異常になる確率が35％減少する。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Infernal Mask","name_tw":"奈落口罩","desc":"状態異常になる確率が60％減少する。","mp":null,"point":"16","element":"Passive"},
-            {"name":"Mutant","name_tw":"稀人","desc":"全ての状態異常にかからなくなる。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Hellish Mask","name_tw":"地域口罩","desc":"-35% chance of receiving status ailments.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Infernal Mask","name_tw":"奈落口罩","desc":"-60% chance of receiving status ailments.","mp":null,"point":"16","element":"Passive"},
+            {"name":"Mutant","name_tw":"稀人","desc":"Becomes immune to all status ailments.","mp":null,"point":null,"element":"Passive"},
             //狀回
-            {"name":"Fast Recovery","name_tw":"自然痊癒","desc":"状態異常の自然回復率が20％増加する。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Epic Recovery","name_tw":"超自然痊癒","desc":"状態異常の自然回復率が30％増加する。","mp":null,"point":"16","element":"Passive"},
+            {"name":"Fast Recovery","name_tw":"自然痊癒","desc":"+20% to status ailment auto cure rate.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Epic Recovery","name_tw":"超自然痊癒","desc":"+30% to status ailment auto cure rate.","mp":null,"point":"16","element":"Passive"},
             //會增
-            {"name":"Bloody Glee","name_tw":"殺戮的愉悅","desc":"クリティカル率が15％増加する。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Savage Glee","name_tw":"趕盡殺絕的愉悅","desc":"クリティカル率が25％増加する。","mp":null,"point":"14","element":"Passive"},
+            {"name":"Bloody Glee","name_tw":"殺戮的愉悅","desc":"+15% to Critical hit rate.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Savage Glee","name_tw":"趕盡殺絕的愉悅","desc":"+25% to Critical hit rate.","mp":null,"point":"14","element":"Passive"},
             //會減
-            {"name":"Wild Guess","name_tw":"野生直覺","desc":"自身が受ける攻撃のクリティカル率を15％減少させる。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Wild Instinct","name_tw":"野獸直覺","desc":"自身が受ける攻撃のクリティカル率を25％減少させる。","mp":null,"point":"14","element":"Passive"},
+            {"name":"Wild Guess","name_tw":"野生直覺","desc":"-15% to Critical hit rate of damage received.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Wild Instinct","name_tw":"野獸直覺","desc":"-25% to Critical hit rate of damage received.","mp":null,"point":"14","element":"Passive"},
             //
-            {"name":"Life Bonus","name_tw":"一分之活泉","desc":"最大HPが10％増加する。","mp":null,"point":3,"element":"Passive"},
-            {"name":"Life Gain","name_tw":"二分之活泉","desc":"最大HPが20％増加する。","mp":null,"point":7,"element":"Passive"},
-            {"name":"Life Surge","name_tw":"三分之活泉","desc":"最大HPが30％増加する。","mp":null,"point":"15","element":"Passive"},
-            {"name":"Mana Bonus","name_tw":"一分之魔脈","desc":"最大MPが１増加する。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Mana Gain","name_tw":"二分之魔脈","desc":"最大MPが２増加する。","mp":null,"point":"15","element":"Passive"},
-            {"name":"Strength Amp I","name_tw":"初段之剛力","desc":"力が５増加する。","mp":null,"point":3,"element":"Passive"},
-            {"name":"Magic Amp I","name_tw":"初段之賢魔","desc":"魔が５増加する。","mp":null,"point":3,"element":"Passive"},
-            {"name":"Vitality Amp I","name_tw":"初段之惠體","desc":"体が５増加する。","mp":null,"point":3,"element":"Passive"},
-            {"name":"Agility Amp I","name_tw":"初段之猛速","desc":"速が５増加する。","mp":null,"point":3,"element":"Passive"},
-            {"name":"Luck Amp I","name_tw":"初段之強運","desc":"運が５増加する。","mp":null,"point":3,"element":"Passive"},
-            {"name":"Strength Amp II","name_tw":"二段之剛力","desc":"力が10増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Magic Amp II","name_tw":"二段之賢魔","desc":"魔が10増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Vitality Amp II","name_tw":"二段之惠體","desc":"体が10増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Agility Amp II","name_tw":"二段之猛速","desc":"速が10増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Luck Amp II","name_tw":"二段之強運","desc":"運が10増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Strength Amp III","name_tw":"三段之剛力","desc":"力が15増加する。","mp":null,"point":"32","element":"Passive"},
-            {"name":"Magic Amp III","name_tw":"三段之賢魔","desc":"魔が15増加する。","mp":null,"point":"32","element":"Passive"},
-            {"name":"Vitality Amp III","name_tw":"三段之惠體","desc":"体が15増加する。","mp":null,"point":"32","element":"Passive"},
-            {"name":"Agility Amp III","name_tw":"三段之猛速","desc":"速が15増加する。","mp":null,"point":"32","element":"Passive"},
-            {"name":"Luck Amp III","name_tw":"三段之強運","desc":"運が15増加する。","mp":null,"point":"32","element":"Passive"}
+            {"name":"Life Bonus","name_tw":"一分之活泉","desc":"+10% to Max HP.","mp":null,"point":3,"element":"Passive"},
+            {"name":"Life Gain","name_tw":"二分之活泉","desc":"+20% to Max HP.","mp":null,"point":7,"element":"Passive"},
+            {"name":"Life Surge","name_tw":"三分之活泉","desc":"+30% to Max HP.","mp":null,"point":"15","element":"Passive"},
+            {"name":"Mana Bonus","name_tw":"一分之魔脈","desc":"+1 to max MP.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Mana Gain","name_tw":"二分之魔脈","desc":"+2 to max MP.","mp":null,"point":"15","element":"Passive"},
+            {"name":"Strength Amp I","name_tw":"初段之剛力","desc":"+5 to Strength.","mp":null,"point":3,"element":"Passive"},
+            {"name":"Magic Amp I","name_tw":"初段之賢魔","desc":"+5 to Magic.","mp":null,"point":3,"element":"Passive"},
+            {"name":"Vitality Amp I","name_tw":"初段之惠體","desc":"+5 to Vitality.","mp":null,"point":3,"element":"Passive"},
+            {"name":"Agility Amp I","name_tw":"初段之猛速","desc":"+5 to Agility.","mp":null,"point":3,"element":"Passive"},
+            {"name":"Luck Amp I","name_tw":"初段之強運","desc":"+5 to Luck.","mp":null,"point":3,"element":"Passive"},
+            {"name":"Strength Amp II","name_tw":"二段之剛力","desc":"+10 to Strength.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Magic Amp II","name_tw":"二段之賢魔","desc":"+10 to Magic.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Vitality Amp II","name_tw":"二段之惠體","desc":"+10 to Vitality.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Agility Amp II","name_tw":"二段之猛速","desc":"+10 to Agility.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Luck Amp II","name_tw":"二段之強運","desc":"+10 to Luck.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Strength Amp III","name_tw":"三段之剛力","desc":"+15 to Strength.","mp":null,"point":"32","element":"Passive"},
+            {"name":"Magic Amp III","name_tw":"三段之賢魔","desc":"+15 to Magic.","mp":null,"point":"32","element":"Passive"},
+            {"name":"Vitality Amp III","name_tw":"三段之惠體","desc":"+15 to Vitality.","mp":null,"point":"32","element":"Passive"},
+            {"name":"Agility Amp III","name_tw":"三段之猛速","desc":"+15 to Agility.","mp":null,"point":"32","element":"Passive"},
+            {"name":"Luck Amp III","name_tw":"三段之強運","desc":"+15 to Luck.","mp":null,"point":"32","element":"Passive"}
         ]
     },
     {
@@ -1244,17 +1244,17 @@ const skill_stable = [
         name_tw:"Damage Passive",
         name_en:"",
         skills:[
-            {"name":"Assassin","name_tw":"Assassin","desc":"単体攻撃スキルで与えるダメージが10％増加する。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Serial Killer","name_tw":"Serial Killer","desc":"全体攻撃スキルで与えるダメージが10％増加する。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Butcher","name_tw":"Butcher","desc":"全体攻撃スキルで与えるダメージが20％増加する。","mp":null,"point":"24","element":"Passive"},
-            {"name":"Deadly Poison","name_tw":"毒追擊","desc":"敵が毒状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Deadly Bondage","name_tw":"束縛追擊","desc":"敵が緊縛状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Deadly Charm","name_tw":"魅惑追擊","desc":"敵が魅了状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Deadly Mute","name_tw":"魔封追擊","desc":"敵が魔封状態のときに与えるダメージが30％増加する。","mp":null,"point":13,"element":"Passive"},
-            {"name":"Berserker","name_tw":"狂戰士","desc":"敵に与えるダメージが10％増加し、自身が受けるダメージも20％増加する。","mp":null,"point":"18","element":"Passive"},
-            {"name":"Back Attack","name_tw":"Damage Passive","desc":"敵の弱点をついたとき、ダメージが10％増加する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"敵の弱点をついたとき、ダメージが20％増加する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Arms Mastery","name_tw":"武道的素養","desc":"物理属性で与えるダメージが15％増加し、物理命中率も15％増加する。","mp":null,"point":null,"element":"Passive"}
+            {"name":"Assassin","name_tw":"Assassin","desc":"+10% to single-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Serial Killer","name_tw":"Serial Killer","desc":"+10% to multiple-target attack skill damage.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Butcher","name_tw":"Butcher","desc":"+20% to multiple-target attack skill damage.","mp":null,"point":"24","element":"Passive"},
+            {"name":"Deadly Poison","name_tw":"毒追擊","desc":"+30% damage to Poisoned enemies.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Deadly Bondage","name_tw":"束縛追擊","desc":"+30% damage to Bound enemies.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Deadly Charm","name_tw":"魅惑追擊","desc":"+30% damage to Charmed enemies.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Deadly Mute","name_tw":"魔封追擊","desc":"+30% damage to Muted enemies.","mp":null,"point":13,"element":"Passive"},
+            {"name":"Berserker","name_tw":"狂戰士","desc":"+10% to damage dealt, but +20% to damage received.","mp":null,"point":"18","element":"Passive"},
+            {"name":"Back Attack","name_tw":"Damage Passive","desc":"+10% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Merciless Blow","name_tw":"無情的一擊","desc":"+20% damage when attacking the enemy's weak point.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Arms Mastery","name_tw":"武道的素養","desc":"+15% to Phys damage and Phys hit rate.","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
@@ -1263,35 +1263,35 @@ const skill_stable = [
         name_en:"",
         skills:[
             //反擊
-            {"name":"Counter","name_tw":"反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力50で与える。","mp":null,"point":6,"element":"Passive"},
-            {"name":"Retaliate","name_tw":"兇猛反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力100で与える。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Death Counter","name_tw":"死亡反擊","desc":"敵の打撃型攻撃を受けたとき、50％の確率で物理属性の打撃型ダメージを威力150で与える。","mp":null,"point":"18","element":"Passive"},
+            {"name":"Counter","name_tw":"反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 50 power.","mp":null,"point":6,"element":"Passive"},
+            {"name":"Retaliate","name_tw":"兇猛反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 100 power.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Death Counter","name_tw":"死亡反擊","desc":"When receiving a Phys Attack, 50% chance to counter dealing Phys damage with 150 power.","mp":null,"point":"18","element":"Passive"},
             //防死
-            {"name":"Endure","name_tw":"強忍","desc":"この悪魔が死亡するとき、一度だけHP1で踏みとどまる。","mp":null,"point":6,"element":"Passive"},
-            {"name":"Enduring Soul","name_tw":"不屈的鬥志","desc":"この悪魔が死亡するとき、一度だけHPが200回復する。","mp":null,"point":"18","element":"Passive"},
-            {"name":"Avatar","name_tw":"降世化身","desc":"この悪魔が死亡するとき、一度だけHP1で踏みとどまる。ウェーブをまたぐとき、HPが10％回復する。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Endure","name_tw":"強忍","desc":"HP stops at 1 HP upon receiving the first killing blow.","mp":null,"point":6,"element":"Passive"},
+            {"name":"Enduring Soul","name_tw":"不屈的鬥志","desc":"Heals 200 HP upon receiving the first killing blow.","mp":null,"point":"18","element":"Passive"},
+            {"name":"Avatar","name_tw":"降世化身","desc":"Heals 200 HP upon receiving the first killing blow. Heals 40% HP when clearing a wave.","mp":null,"point":null,"element":"Passive"},
             //自回
-            {"name":"Life Aid","name_tw":"勝利的氣息","desc":"ウェーブをまたぐとき、HPが30％回復する。","mp":null,"point":6,"element":"Passive"},
-            {"name":"Mana Aid","name_tw":"勝利的查克拉","desc":"ウェーブをまたぐとき、MPが10回復する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Infinite Chakra","name_tw":"無限的查克拉","desc":"MPの自然回復量が１増加する。","mp":null,"point":"18","element":"Passive"},
+            {"name":"Life Aid","name_tw":"勝利的氣息","desc":"Heals 30% HP when clearing a wave.","mp":null,"point":6,"element":"Passive"},
+            {"name":"Mana Aid","name_tw":"勝利的查克拉","desc":"Recovers 10 MP when clearing a wave.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Infinite Chakra","name_tw":"無限的查克拉","desc":"Increases naturally recovered MP by 1 MP.","mp":null,"point":"18","element":"Passive"},
             //反射
-            {"name":"Tetra Shift","name_tw":"提特拉康脈動","desc":"後攻でバトルを開始したとき、テトラカーンが発動する。","mp":null,"point":"18","element":"Passive"},
-            {"name":"Makara Shift","name_tw":"瑪卡拉康脈動","desc":"後攻でバトルを開始したとき、マカラカーンが発動する。","mp":null,"point":"18","element":"Passive"},
-            {"name":"Bane of Pierce","name_tw":"貫反靈壓","desc":"","mp":null,"point":null,"element":"Passive"},
+            {"name":"Tetra Shift","name_tw":"提特拉康脈動","desc":"Casts Tetrakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
+            {"name":"Makara Shift","name_tw":"瑪卡拉康脈動","desc":"Casts Makarakarn at the beginning of a battle if the enemy attacks first.","mp":null,"point":"18","element":"Passive"},
+            {"name":"Bane of Pierce","name_tw":"貫反靈壓","desc":"Pierce will have no effect on Repels on any party member while the demon with this skill is alive.","mp":null,"point":null,"element":"Passive"},
             //Support
-            {"name":"Auto-Tarukaja","name_tw":"自動塔爾卡","desc":"１ターン目開始時、タルカジャが発動する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Rakukaja","name_tw":"自動拉庫卡","desc":"１ターン目開始時、ラクカジャが発動する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Sukukaja","name_tw":"自動斯庫卡","desc":"１ターン目開始時、スクカジャが発動する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Tarunda","name_tw":"自動塔倫達","desc":"１ターン目開始時、タルンダが発動する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Rakunda","name_tw":"自動拉昆達","desc":"１ターン目開始時、ラクンダが発動する。","mp":null,"point":"12","element":"Passive"},
-            {"name":"Auto-Sukunda","name_tw":"自動斯坤達","desc":"１ターン目開始時、スクンダが発動する。","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Tarukaja","name_tw":"自動塔爾卡","desc":"Casts Tarukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Rakukaja","name_tw":"自動拉庫卡","desc":"Casts Rakukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Sukukaja","name_tw":"自動斯庫卡","desc":"Casts Sukukaja at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Tarunda","name_tw":"自動塔倫達","desc":"Casts Tarunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Rakunda","name_tw":"自動拉昆達","desc":"Casts Rakunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
+            {"name":"Auto-Sukunda","name_tw":"自動斯坤達","desc":"Casts Sukunda at the beginning of the 1st turn.","mp":null,"point":"12","element":"Passive"},
             //壓制
-            {"name":"Intimidating Stance","name_tw":"威攝姿態","desc":"後攻でバトルを開始したとき、敵のプレスターンアイコンを１つ減少させる。","mp":null,"point":"21","element":"Passive"},
-            {"name":"Suppress Stance Drain","name_tw":"威攝姿態:Drain","desc":"このスキルを持っている悪魔が生きている間、味方の属性吸収が発動した際、敵のプレスターンアイコンを1つ減少させる。","mp":null,"point":null,"element":"Passive"},
-            {"name":"Faith in Wealth","name_tw":"","desc":"最大HPが10%増加する。敵のスキル効果によってこちらのプレスターンアイコンが減少するたび、味方全体のMPを1回復する。","mp":null,"point":null,"element":"Passive"},
+            {"name":"Intimidating Stance","name_tw":"威攝姿態","desc":"Reduces 1 enemy Press Turn at the beginning of a battle if the enemy attacks first. Only up to 2 Press Turn Icons can be reduced by skills or effects.","mp":null,"point":"21","element":"Passive"},
+            {"name":"Suppress Stance Drain","name_tw":"威攝姿態:Drain","desc":"As long as the demon who has this skill is alive, the enemy loses an extra Press Turn Icon every time you drain their attack.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Faith in Wealth","name_tw":"","desc":"Increases max HP by 10%. Recover 1 MP every time your Press Turn Icon decreases due to enemy skills.","mp":null,"point":null,"element":"Passive"},
             //節省
-            {"name":"Trickster","name_tw":"狡計之星","desc":"敵の弱点をついたとき、20％の確率でプレスターンアイコンを消費しない。","mp":null,"point":null,"element":"Passive"},
-            {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"MPを消費するとき、消費するMPが１減少する。","mp":null,"point":null,"element":"Passive"}
+            {"name":"Trickster","name_tw":"狡計之星","desc":"20% chance to avoid using Press Turn Icons when attacking the enemy's weak point.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Lunar Blessing","name_tw":"月之庇佑","desc":"Reduces consumed MP by 1 MP.","mp":null,"point":null,"element":"Passive"}
         ]
     },
     {
@@ -1299,12 +1299,12 @@ const skill_stable = [
         name_tw:"Special Passive",
         name_en:"",
         skills:[
-            {"name":"Luck","name_tw":"幸運","desc":"D×2とパーティ悪魔がバトルで獲得する経験値を20％、バトルで獲得するマッカを20％増加させる。","mp":null,"point":null,"element":"Passive"},
-            {"name":"Dmg Panel V I","name_tw":"漫步雷池","desc":"アウラゲート内のダメージ床のダメージが25％減少する。","mp":null,"point":2,"element":"Passive"},
-            {"name":"Dmg Panel V II","name_tw":"闊步雷池","desc":"アウラゲート内のダメージ床のダメージが50％減少する。","mp":null,"point":4,"element":"Passive"},
-            {"name":"Trap Free","name_tw":"陷阱弱化","desc":"アウラゲート内でダメージ床のダメージが30％減少し、ダークゾーンの効果を無効にする。","mp":null,"point":null,"element":"Passive"},
-            {"name":"Dmg Panel Immunity","name_tw":"雷池無懼","desc":"アウラゲート内のダメージ床のダメージを無効にする。","mp":null,"point":8,"element":"Passive"},
-            {"name":"Void Dark Zones","name_tw":"黑暗區域無效","desc":"アウラゲート内のダークゾーンの効果を無効にする。","mp":null,"point":8,"element":"Passive"}
+            {"name":"Luck","name_tw":"幸運","desc":"Increases Exp gained by Dx2 and all party members by 20% and Macca obtained during battle by 20%.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Dmg Panel V I","name_tw":"漫步雷池","desc":"-25% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":2,"element":"Passive"},
+            {"name":"Dmg Panel V II","name_tw":"闊步雷池","desc":"-50% to damage received from Damage Panels in the Aura Gate.","mp":null,"point":4,"element":"Passive"},
+            {"name":"Trap Free","name_tw":"陷阱弱化","desc":"-30% to damage received from Damage Panels in the Aura Gate, and nullifies Dark Zone effects.","mp":null,"point":null,"element":"Passive"},
+            {"name":"Dmg Panel Immunity","name_tw":"雷池無懼","desc":"Nullifies Damage Panels in the Aura Gate.","mp":null,"point":8,"element":"Passive"},
+            {"name":"Void Dark Zones","name_tw":"黑暗區域無效","desc":"Nullifies Dark Zone effects in the Aura Gate.","mp":null,"point":8,"element":"Passive"}
         ]
     }
 ];
@@ -1453,6 +1453,73 @@ Devil.prototype.showRarity = function(){
         rarity += '★';
     return rarity;
 }
+
+Devil.prototype.showSpecial = function(){
+  gacha = ["Trumpeter","Alice","White Rider","Yoshitsune","Huang Di","Siegfried","Jeanne d'Arc"]
+  if(this.name == "Alilat"){
+    return "Multi-Fusion";
+  }
+  else if(this.name == "Attis"){
+    return "Multi-Fusion";
+  }
+  else if(this.name == "Kama"){
+    return "Multi-Fusion";
+  }
+  else if(this.name == "Kinmamon"){
+    return "Multi-Fusion";
+  }
+  else if(this.name == "Hare of Inaba"){
+    return "Multi-Fusion";
+  }
+  else if(this.name == "Kanbari"){
+    return "Multi-Fusion";
+  }
+  else if(this.name == "Kamiotoko"){
+    return "Multi-Fusion";
+  }
+  else if(this.name == "Chupacabra"){
+    return "Multi-Fusion";
+  }
+  for(var i=0; i<gacha.length;i++){
+    if(this.name == gacha[i]){
+      return "Gacha Exclusive";
+    }
+  }
+  return '';
+}
+Devil.prototype.showDetailedSpecial = function(){
+  gacha = ["Trumpeter","Alice","White Rider","Yoshitsune","Huang Di","Siegfried","Jeanne d'Arc"]
+  if(this.name == "Alilat"){
+    return " | Pele + Kushinada + Azrael + Sandalphon |";
+  }
+  else if(this.name == "Attis"){
+    return " | Baphomet + Arianrhod + Isis + Berserker |";
+  }
+  else if(this.name == "Kama"){
+    return " | Yaksini + Dakini + Mitra + Rangda |";
+  }
+  else if(this.name == "Kinmamon"){
+    return " | Heqet + Legion + Mothman + Arahabaki |";
+  }
+  else if(this.name == "Hare of Inaba"){
+    return " | Nekomata + Fomorian + Makami |";
+  }
+  else if(this.name == "Kanbari"){
+    return " | Koppa Tengu + Inugami + Yomotsu-Shikome + Kurama Tengu |";
+  }
+  else if(this.name == "Kamiotoko"){
+    return " | Obariyon + Phantom + Mou-Ryo |";
+  }
+  else if(this.name == "Chupacabra"){
+    return " | Slime + Melchom + Chagrin |";
+  }
+  for(var i=0; i<gacha.length;i++){
+    if(this.name == gacha[i]){
+      return " | Cannot be fused.";
+    }
+  }
+}
+
 Devil.prototype.showCost = function(rarity){
 /*
     var cost = this.costs[rarity];
@@ -1772,13 +1839,11 @@ DevilBom.prototype.init = function(){
 };
 
 DevilBom.prototype.showMag = function(){
-
     return (this.mag/1).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
 
 
 DevilBom.prototype.showMagPure = function(){
-
     return (this.mag_pure/1).toFixed(0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 };
 
@@ -2208,7 +2273,7 @@ var app = new Vue({
 
         //modal
 
-        updated_at:'07-29-2018',
+        updated_at:'07-31-2018',
 
         //important for update computed's getter from setter
         computed_counter:{
@@ -2721,7 +2786,6 @@ var app = new Vue({
             this.fusion_options.forEach(function(option){
                 option.formulas.forEach(function(formula){
                     formula.boms.forEach(function(bom){
-
                         var r = bom.devil.rarity;
                         var r1 = bom.child1.devil.rarity;
                         var r2 = bom.child2.devil.rarity;
@@ -2759,73 +2823,7 @@ var app = new Vue({
             this.now = new Date( utc + 9 * 3600000 );
         },
         tick:function(){
-/*
-            var sec = this.now.getSeconds()+1;
 
-            if(sec==60)
-                this.update_now();
-
-            this.now.setSeconds( sec );
-
-            var next, diff, h;
-            var gate_hours_ch = [0,9,12,17,19,22];    //utc+8 [8,11,16,18,21,23]
-            var gate_hours_jp = [0,7,12,17,19,22];    //utc+8 [6,11,16,18,21,23]
-
-            var h = this.now.getHours();
-
-            next = new Date(this.now.getTime());
-            next.setMinutes(0);
-            next.setSeconds(0);
-
-            for(var i=0; i<gate_hours_ch.length;i++){
-                var gate_hour = gate_hours_ch[i];
-                if(h<gate_hour){
-                    next.setHours(gate_hour);
-                    this.gate_status_ch = false;
-                    break;
-                }
-                if(h==gate_hour){
-                    next.setHours(next.getHours()+1);
-                    this.gate_status_ch = true;
-                    break;
-                }
-                if(i==gate_hours_ch.length-1){
-                    gate_hour = gate_hours_ch[0];
-                    next.setHours(next.getHours()+24-h+gate_hour);
-                    this.gate_status_ch = false;
-                    break;
-                }
-            }
-            var diff = new Date(next.getTime() - this.now.getTime());
-            this.gate_timer_ch =  (diff.getUTCHours()+':'+diff.getUTCMinutes()+':'+diff.getUTCSeconds()).replace(/\b(?=(\d{1})(?!\d))/g,'0');
-
-            next = new Date(this.now.getTime());
-            next.setMinutes(0);
-            next.setSeconds(0);
-
-            for(var i=0; i<gate_hours_jp.length;i++){
-
-                var gate_hour = gate_hours_jp[i];
-                if(h<gate_hour){
-                    next.setHours(gate_hour);
-                    this.gate_status_jp = false;
-                    break;
-                }
-                if(h==gate_hour){
-                    next.setHours(next.getHours()+1);
-                    this.gate_status_jp = true;
-                    break;
-                }
-                if(i==gate_hours_jp.length-1){
-                    gate_hour = gate_hours_jp[0];
-                    next.setHours(next.getHours()+24-h+gate_hour);
-                    this.gate_status_jp = false;
-                    break;
-                }
-            }
-            diff = new Date(next.getTime() - this.now.getTime());
-            */
-            //  (diff.getUTCHours()+':'+diff.getUTCMinutes()+':'+diff.getUTCSeconds()).replace(/\b(?=(\d{1})(?!\d))/g,'0') +
             this.gate_timer_jp = "";
 
             //orb
@@ -2923,16 +2921,32 @@ Vue.component('devil',{
             app.show_devil_info(this.devil);
         },
         isSkillAvailable:function(inherit){
-
             if(inherit){
-                return this.skill==this.devil.skills[0] ||
-                    this.devil.skill5.indexOf(this.skill)>=0;
+                return this.skill==this.devil.skills[0]
+                ||    this.devil.skill5.indexOf(this.skill)>=0;
             }
             else{
                 return this.skill==this.devil.skills[1] ||
                     this.skill==this.devil.skills[2] ||
                     this.devil.skill4.indexOf(this.skill)>=0;
             }
+        },
+
+        // Added by Dissi
+        isSkillAvailableType:function(inherit){
+          if(inherit == 0){
+            return this.skill==this.devil.skills[0];
+          }
+          else if(inherit == 1){
+            return this.devil.skill5.indexOf(this.skill)>=0;
+          }
+          else if(inherit == 2){
+            return this.skill==this.devil.skills[1]||
+                this.skill==this.devil.skills[2];
+          }
+          else if(inherit == 3){
+            return this.devil.skill4.indexOf(this.skill)>=0;
+          }
         }
     }
 });
