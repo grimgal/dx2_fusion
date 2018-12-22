@@ -40,7 +40,7 @@ const ddd_stable = [{
 		icon: 'daitensi_mikaeru.png',
 		skills: ["Life Aid", "Soul Judgement", "Megidolaon"],
 		skill4: ["Endure", "Thunderclap", "Mediarahan", "Hellish Mask", "Repel Dark"],
-		skill5: ['', 'Titanomachia', 'Resist Fire', 'Ziodyne', 'Myriad Arrows'],
+		skill5: ['', 'Titanomachia', 'Resist Fire', 'Ziodyne', 'Hurricane Slash'],
 		elements: ["", "", "Null", "Null", "", "Repel", "Weak"],
 		type: "Attack"
 	}, {
@@ -156,7 +156,7 @@ const ddd_stable = [{
 		rarity: 4,
 		grade: 62,
 		icon: 'megami_parasuatena.png',
-		skills: ["Resist Force", "Myriad Arrows", "Holy Wrath"],
+		skills: ["Resist Force", "Hurricane Slash", "Holy Wrath"],
 		skill4: ["Makarakarn", "Mortal Jihad", "Diarahan", "Mana Aid", "Null Fire"],
 		skill5: ["", "Tempest Slash", "Silent Prayer", "Toxic Sting", "Twister"],
 		elements: ["Resist", "", "", "", "", "Null", "Weak"],
@@ -181,7 +181,7 @@ const ddd_stable = [{
 		grade: 44,
 		icon: 'megami_arianrodo.png',
 		skills: ["Hamaon", "Media", "Berserker God"],
-		skill4: ["Diara", "Myriad Arrows", "Lydia Break", "Great Aim", "Null Ice"],
+		skill4: ["Diara", "Hurricane Slash", "Lydia Break", "Great Aim", "Null Ice"],
 		skill5: ["", "Mazio", "Charmdi", "Vitality Amp I", "Mutudi"],
 		elements: ["Resist", "", "", "", "", "Resist", ""],
 		type: "Attack"
@@ -1828,7 +1828,7 @@ const ddd_stable = [{
 		grade: 41,
 		icon: 'youki_yomotuikusa.png',
 		skills: ["Resist Poison", "Ice Breath", "Mamudoon"],
-		skill4: ["Merciless Blow", "Myriad Arrows", "Juon", "Savage Glee", "Resist Light"],
+		skill4: ["Merciless Blow", "Hurricane Slash", "Juon", "Savage Glee", "Resist Light"],
 		skill5: ["", "Mutudi", "Vitality Amp I", "Mekasudi", "Meweakdi"],
 		elements: ["", "", "", "", "Weak", "Weak", "Resist"],
 		type: "Attack"
@@ -1933,7 +1933,7 @@ const ddd_stable = [{
 		grade: 34,
 		icon: 'kijyo_yakusini.png',
 		skills: ["Resist Curse", "Agilao", "Mazan"],
-		skill4: ["Myriad Arrows", "Zionga", "Shibaboo", "Strength Amp I", "Resist Phys"],
+		skill4: ["Hurricane Slash", "Zionga", "Shibaboo", "Strength Amp I", "Resist Phys"],
 		skill5: ["", "Hama", "Dmg Panel V I", "Maragi", "Agility Amp I"],
 		elements: ["", "", "", "Weak", "Resist", "", ""],
 		type: "Attack"
@@ -2681,7 +2681,7 @@ const ddd_stable = [{
 		icon: 'eiyuu_jikuhurito.png',
 		skills: ['Berserker God', 'Rebellion', 'Arms Mastery'],
 		skill4: ['Life Aid', 'Titanomachia', 'Charge', 'Enduring Soul', 'Null Force'],
-		skill5: ['', 'Great Aim', 'Auto-Sukunda', 'Myriad Arrows', 'Resist Dark'],
+		skill5: ['', 'Great Aim', 'Auto-Sukunda', 'Hurricane Slash', 'Resist Dark'],
 		elements: ['Drain', '', '', '', '', '', ''],
 		type: 'Attack'
 	}, {
@@ -2758,7 +2758,7 @@ const ddd_stable = [{
 		grade: 75,
 		icon: 'hisin_kama.png',
 		skills: ['Speedster', 'Dekunda', "Divine Bows' Allure"],
-		skill4: ['Vorpal Blade', 'Myriad Arrows', 'Silent Prayer', 'Auto-Sukuka', 'Repel Fire'],
+		skill4: ['Vorpal Blade', 'Hurricane Slash', 'Silent Prayer', 'Auto-Sukuka', 'Repel Fire'],
 		skill5: ['', 'Resist Force', 'Meposumudi', 'Toxic Sting', 'Tarunda'],
 		elements: ['Resist', 'Weak', '', '', '', 'Resist', ''],
 		type: 'Support'
@@ -2985,7 +2985,7 @@ const skill_stable = [{
 			"point": 7,
 			"element": "Physical"
 		}, {
-			"name": "Myriad Arrows",
+			"name": "Hurricane Slash",
 			"name_tw": "剎那五月雨擊",
 			"desc": "Inflicts Phys (Physical) damage 2 to 5 times with 65 power on Random Enemy/(ies).",
 			"mp": 7,
@@ -5988,6 +5988,12 @@ DevilBom.prototype.init = function() {
 		if (devil.rarity == 5) this.mag_pure = Math.floor(mag * 0.7);
 		else if (devil.rarity == 4) this.mag_pure = Math.floor(mag * 0.5);
 		else this.mag_pure = this.mag;
+		if (devil.name == "Power" || devil.name == "Apis" || devil.name == "Mitra" || devil.name == "Makami" ||
+		devil.name == "Black Ooze" || devil.name == "Decarabia" || devil.name == "Legion" || devil.name == "Kelpie" ||
+		devil.name == "High Pixie" || devil.name == "Shiisaa" || devil.name == "Shadow"){
+			this.mag = 0;
+			this.mag_pure = 0;
+		}
 		if (A == 0) {
 			this.mag = 0;
 			this.mag_pure = 0;
@@ -6460,7 +6466,7 @@ var app = new Vue({
 		moon_status: 0,
 		moon_timer: null,
 		//modal
-		updated_at: '10-18-2018',
+		updated_at: '10-20-2018',
 		//patch
 		patch_value: '0',
 		//important for update computed's getter from setter
